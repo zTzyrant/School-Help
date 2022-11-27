@@ -1,0 +1,183 @@
+a {
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# NavBar
+--------------------------------------------------------------*/
+.navbar {
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+.navbar .navbar-brand{
+    color: #5fcf80 !important;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+.navbar-nav .nav-link {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: bold !important;
+    color: #37423b !important;
+    white-space: nowrap;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+}
+.mx-auto{
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #5fcf80 !important;
+    border-bottom: 2px solid #000000;
+    box-shadow: 0 4px 2px -2px #636262;
+}
+
+.navbar-nav .nav-link a:hover{
+    color: #5fcf80 !important;
+}
+
+.navbar .active{
+    color: #5fcf80 !important; 
+    border-bottom: 2px solid #000000;
+}
+
+.navbar .fw-bold{
+    background: #5fcf80;
+    color: #fff;
+    border-radius: 50px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.navbar .fw-bold{
+    background: #5fcf80;
+    color: #fff;
+    border-radius: 50px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+}
+
+@media screen and (min-width: 769px) {
+.btn {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0;
+    border-width: 2px;
+}
+.btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+}
+}
+@media screen and (max-width: 768px) {
+.btn {
+    padding: 0;
+    color: #000000;
+}
+}
+/*--------------------------------------------------------------
+# END NavBar
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: url("../img/hero-bg.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+  
+  #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+  
+  #hero .container {
+    padding-top: 72px;
+}
+  
+@media (max-width: 992px) {
+#hero .container {
+    padding-top: 62px;
+}
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+#hero h2 {
+    color: #eee;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+#hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+#hero .btn-get-started:hover {
+    background: #5fcf80;
+    border: 2px solid #5fcf80;
+}
+
+@media (min-width: 1024px) {
+#hero {
+    background-attachment: fixed;
+}
+}
+
+@media (max-width: 768px) {
+#hero {
+    height: 100vh;
+}
+
+#hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+#hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+}
+}
+  
+/*--------------------------------------------------------------
+# END Hero Section
+--------------------------------------------------------------*/
