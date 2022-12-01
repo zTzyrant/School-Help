@@ -157,7 +157,7 @@ if(($_SESSION["username"]) === NULL){
                                             <div class="col-md-6 col-12">
                                                 <div class="form-group">
                                                     <label for="email" class="form-label">Email</label>
-                                                    <input type="text" id="email" class="form-control" placeholder="Email" name="email" value="<?php echo $_SESSION['email']?>"  required>
+                                                    <input type="email" id="email" class="form-control" placeholder="Email" name="email" value="<?php echo $_SESSION['email']?>"  required>
                                                 </div>
                                             </div>
 
